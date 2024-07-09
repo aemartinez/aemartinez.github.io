@@ -1,6 +1,6 @@
 baseURL = "https://example.com/"
 languageCode = "en-US"
-title = "Chris Turner"
+title = "Agustín Martinez Suñé"
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""
 # Enable Google Analytics by entering your tracking code
@@ -12,7 +12,7 @@ theme = "hugo-sustain"
 
 [params]
   avatar = "img/profile.png"
-  author = "Chris Turner"
+  author = "Agustín Martinez Suñé"
   description = "Describe your website"
 
   # Custom assets can be linked with their paths relative to static/
@@ -20,28 +20,28 @@ theme = "hugo-sustain"
   custom_js  = []
 
 [params.social]
-  Github        = "username"
-  Email         = "email@example.com"
-  Twitter       = "username"
-  LinkedIn      = "username"
-  Stackoverflow = "username"
-  Medium        = "username"
-  Telegram      = "username"
-  RSS           = "/blog/index.xml"
+  Github        = "aemartinez"
+  Email         = "aemartinez@dc.uba.ar"
+  # Twitter       = "username"
+  LinkedIn      = "agusms"
+  # Stackoverflow = "username"
+  # Medium        = "username"
+  # Telegram      = "username"
+  # RSS           = "/blog/index.xml"
 
 ## Main Menu
-[[menu.main]]
-  name = "blog"
-  weight = 100
-  identifier = "blog"
-  url = "/blog/"
-[[menu.main]]
-  name = "projects"
-  identifier = "projects"
-  weight = 200
-  url = "/projects/"
-[[menu.main]]
-  name = "resume"
-  identifier = "resume"
-  weight = 300
-  url = "/resume/"
+# [[menu.main]]
+#   name = "blog"
+#   weight = 100
+#   identifier = "blog"
+#   url = "/blog/"
+# [[menu.main]]
+#   name = "projects"
+#   identifier = "projects"
+#   weight = 200
+#   url = "/projects/"
+# [[menu.main]]
+#   name = "resume"
+#   identifier = "resume"
+#   weight = 300
+#   url = "/resume/"
