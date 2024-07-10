@@ -1,6 +1,6 @@
-baseURL = "https://example.com/"
+baseURL = "https://agusmartinez.ar/"
 languageCode = "en-US"
-title = "Agustín Martinez Suñé"
+title = "Agustín Martinez Suñé - Computer Science Ph.D. - AI Safety"
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""
 # Enable Google Analytics by entering your tracking code
@@ -13,7 +13,7 @@ theme = "hugo-sustain"
 [params]
   avatar = "img/profile.png"
   author = "Agustín Martinez Suñé"
-  description = "Describe your website"
+  description = "I obtained my Computer Science Ph.D. at the University of Buenos Aires, Argentina, where I developed formal methods for analyzing distributed systems."
 
   # Custom assets can be linked with their paths relative to static/
   custom_css = []
