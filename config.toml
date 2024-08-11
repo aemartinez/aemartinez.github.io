@@ -28,6 +28,7 @@ theme = "hugo-sustain"
   # Medium        = "username"
   # Telegram      = "username"
   # RSS           = "/blog/index.xml"
+  GoogleScholar = "L4fg-fcAAAAJ"
 
 ## Main Menu
 # [[menu.main]]
