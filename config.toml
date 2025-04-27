@@ -16,12 +16,12 @@ theme = "hugo-sustain"
   description = "I obtained my Computer Science Ph.D. at the University of Buenos Aires, Argentina, where I developed formal methods for analyzing distributed systems."
 
   # Custom assets can be linked with their paths relative to static/
-  custom_css = []
+  custom_css = ["css/custom.css"]
   custom_js  = []
 
 [params.social]
   Github        = "aemartinez"
-  Email         = "aemartinez@dc.uba.ar"
+  Email         = "agustin.martinez.sune@cs.ox.ac.uk"
   # Twitter       = "username"
   LinkedIn      = "agusms"
   # Stackoverflow = "username"
