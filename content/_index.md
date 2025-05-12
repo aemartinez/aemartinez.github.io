@@ -24,4 +24,4 @@ Contact me at [@username] or by [email]. -->
 <!-- [projects]: /projects
 [resume]: https://demo.nurlan.co/hugo-vitae/
 [@username]: https://twitter.com/username
-[email]: mailto:email@example.com -->
+[email]: mailto:email@example.com --> 
