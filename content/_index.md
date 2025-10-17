@@ -1,7 +1,7 @@
 ---
 ---
 
-I'm **Agustín Martinez Suñé**, a **Postdoctoral Research Associate** at the **University of Oxford**, where I work with the [OXCAV](https://oxcav.web.ox.ac.uk/) research group.
+I'm **Agustín Martínez Suñé**, a **Postdoctoral Research Associate** at the **University of Oxford**, where I work with the [OXCAV](https://oxcav.web.ox.ac.uk/) research group.
 
 I earned my **Ph.D. in Computer Science** from the University of Buenos Aires, Argentina, specializing in **formal methods** for distributed systems analysis. My research has been published in leading venues including [TCS](https://doi.org/10.1016/j.tcs.2025.115247), [FM](https://doi.org/10.1007/978-3-031-71177-0_7), and [ICTAC](https://doi.org/10.1007/978-3-031-47963-2_9), where our work was recognized with the [Best Paper Award](https://ictac2023.compsust.utec.edu.pe/) in 2023.
 
