@@ -1,0 +1,72 @@
+{{ define "main" }}
+  {{ partial "header" . }}
+
+  <section id="about">
+    <div class="container">
+      <div class="about-wrapper">
+        <img class="rounded-circle profile-img" src="{{ .Site.Params.avatar }}" alt="Responsive image">
+        <div class="content-wrapper">
+          {{ .Content }}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="publications">
+    <div class="container">
+      <h4 class="my-5">{{ .Site.Data.publications.name }}</h4>
+      <div class="panel">
+        <div class="panel-body">
+          {{ range $pub := .Site.Data.publications.source }}
+            <div class="publication-item mb-4">
+              <h5>
+                {{ if $pub.venues }}
+                  {{ $firstVenue := index $pub.venues 0 }}
+                  <a href="{{ $firstVenue.url }}">{{ $pub.title }}</a>
+                {{ else if $pub.url }}
+                  <a href="{{ $pub.url }}">{{ $pub.title }}</a>
+                {{ else }}
+                  {{ $pub.title }}
+                {{ end }}
+              </h5>
+              <p class="mb-1">
+                <em>{{ $pub.authors }}</em>
+              </p>
+              {{ if $pub.venues }}
+                {{ range $venue := $pub.venues }}
+                  <p class="mb-1">
+                    {{ $venue.name | markdownify }}, {{ $venue.year }}
+                    {{ if $venue.doi }}
+                      | <a href="https://doi.org/{{ $venue.doi }}">DOI: {{ $venue.doi }}</a>
+                    {{ end }}
+                  </p>
+                {{ end }}
+              {{ else }}
+                <p class="mb-1">
+                  {{ if $pub.venue }}
+                    {{ $pub.venue | markdownify }}, {{ $pub.year }}
+                  {{ else }}
+                    {{ $pub.year }}
+                  {{ end }}
+                  {{ if $pub.doi }}
+                    | <a href="https://doi.org/{{ $pub.doi }}">DOI: {{ $pub.doi }}</a>
+                  {{ end }}
+                </p>
+              {{ end }}
+              {{ if $pub.description }}
+                <p class="text-muted">{{ $pub.description }}</p>
+              {{ end }}
+            </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="social">
+    <div class="container">
+      {{ partial "social.html" . }}
+    </div>
+  </section>
+{{ end }}
+
