@@ -9,7 +9,7 @@ Building on my expertise in formal methods, I worked as a Formal Verification En
 
 In 2024, I was awarded a [PIBBSS Research Fellowship](https://pibbss.ai/fellowship/) to work at the [London Initiative for Safe AI](https://www.safeai.org.uk/), where I explored approaches for integrating language models with symbolic planners to create safe LLM agents. This experience led me to focus my research on the intersection of **formal verification** and **AI safety**, with interests spanning **model checking**, **temporal logics**, **SMT solving**, **safe reinforcement learning**, and **safe LLM agents**.
 
-Alongside my research, I co-founded and co-run the [AISAR Scholarship Programme](https://scholarship.aisafety.ar/en/) with [Iván Arcuschin](https://iarcuschin.com/), a yearly initiative that strengthens AI safety research capacity in Argentine universities by pairing professors with top students on AI safety research projects.
+Alongside my research, I co-founded and co-run the [AISAR Scholarship Programme](https://scholarship.aisafety.ar/en/) with [Iván Arcuschin](https://iarcuschin.com/). AISAR is a yearly initiative that strengthens AI safety research capacity in Argentine universities by pairing professors with top students on AI safety research projects.
 
 My broader goal is to advance the science of trustworthy AI and help build the global research community needed to tackle it.
 
